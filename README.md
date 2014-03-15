@@ -1,6 +1,6 @@
 # linkto
 
-linkto gem - linkto - link_to helpers for google search, bing search, flickr photo search, flickr photo tag, etc.
+linkto gem - link_to helpers for google search, bing search, flickr photo search, flickr photo tag, etc.
 
 * home  :: [github.com/rubylibs/linkto](https://github.com/rubylibs/linkto)
 * bugs  :: [github.com/rubylibs/linkto/issues](https://github.com/rubylibs/linkto/issues)
@@ -15,7 +15,7 @@ TBD
 
 ## Real World Usage
 
-- [beer.db.admin](http://rubygems.org/geraldb/beer.db.admin) - open source world beer guide; beer.db browser
+- [beer.db.admin](https://github.com/geraldb/beer.db.admin) - open source world beer guide; beer.db browser
 
 
 ## Alternatives
