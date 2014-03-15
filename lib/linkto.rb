@@ -1,13 +1,22 @@
 
 
 ## require 'props'
+
 require 'logutils'
+
 ## require 'textutils'
 
 
 # our own code
 
 require 'linkto/version'  # let it always go first
+
+require 'linkto/bing'
+require 'linkto/flickr'
+require 'linkto/google'
+require 'linkto/untappd'
+require 'linkto/wikipedia'
+
 
 module Linkto
 
