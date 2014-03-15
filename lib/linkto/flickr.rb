@@ -24,6 +24,12 @@ module Linkto
     link_to q, "http://www.flickr.com/search/?q=#{q}", opts
   end
 
+###############################
+# shortcuts / aliases
 
-  end
+  def flickr_tags( tags, opts={} ) link_to_flickr_tags( tags, opts ) end
+  def flickr_search( q, opts={} )  link_to_flickr_search( q, opts )  end
+
+
+  end # module FlickrHelper
 end # module Linkto

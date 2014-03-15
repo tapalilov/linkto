@@ -8,6 +8,11 @@ module Linkto
     link_to q, "http://www.bing.com/images/search?q=#{q}", opts
   end
 
+############################
+# shortcuts / aliases
 
-  end
+  def bing_search_images( q, opts={} ) link_to_bing_search_images( q, opts) end
+
+
+  end # module BingHelper
 end # module Linkto

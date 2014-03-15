@@ -9,5 +9,11 @@ module Linkto
   end
 
 
-  end
+###############################
+# shortcuts / aliases
+
+  def untappd_search( q, opts ) link_to_untappd_search( q, opts )  end
+
+
+  end # module UntappdHelper
 end # module Linkto

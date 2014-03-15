@@ -26,12 +26,24 @@ module Linkto
 
   def self.root
     "#{File.expand_path( File.dirname(File.dirname(__FILE__)) )}"
+  end  
+
+### convenience - includes all helpers; use include LinktoHelper
+  module Helper
+    include BingHelper
+    include FlickrHelper
+    include GoogleHelper
+    include UntappdHelper
+    include WikipediaHelper
   end
 
 end  # module Linkto
 
-## for convenience add alias for module
-LinkTo = Linkto
+
+## for convenience add aliases for module
+LinkTo       = Linkto
+LinkToHelper = Linkto::Helper 
+LinktoHelper = Linkto::Helper
 
 
 puts Linkto.banner    # say hello

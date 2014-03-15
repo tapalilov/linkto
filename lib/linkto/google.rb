@@ -17,5 +17,13 @@ module Linkto
   end
 
 
-  end
+###############################
+# shortcuts / aliases
+
+  def google_search( q, opts )    link_to_google_search( q, opts )   end
+  def google_de_search( q, opts ) link_to_google_de_search( q, opts) end
+  def google_search_images( q, opts )  link_to_google_search_images( q, opts )  end
+
+
+  end # module GoogleHelper 
 end # module Linkto
