@@ -9,3 +9,6 @@ lib/linkto/google.rb
 lib/linkto/untappd.rb
 lib/linkto/version.rb
 lib/linkto/wikipedia.rb
+test/helper.rb
+test/test_google.rb
+test/test_wikipedia.rb

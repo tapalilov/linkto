@@ -16,8 +16,8 @@ module Linkto
 ###############################
 # shortcuts / aliases
 
-  def wikipedia_search( q, opts )    link_to_wikipedia_search( q, opts ) end
-  def wikipedia_de_search( q, opts ) link_to_wikipedia_de_search( q, opts ) end
+  def wikipedia_search( q, opts={} )    link_to_wikipedia_search( q, opts ) end
+  def wikipedia_de_search( q, opts={} ) link_to_wikipedia_de_search( q, opts ) end
 
 
   end  # module WikipediaHelper
