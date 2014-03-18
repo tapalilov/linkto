@@ -8,6 +8,10 @@ class TestGoogle < MiniTest::Unit::TestCase
 
   include LinktoHelper
 
+  ###
+  # fix:  use + for spaces ??? why? why not? e.g
+  #  ?q=open+mundi
+
   %i( google_search link_to_google_search ).each do |method|
     define_method("test #{method}") do
       assert_equal "<a href='https://www.google.com/search?q=open mundi'>open mundi</a>", send(method, 'open mundi')
