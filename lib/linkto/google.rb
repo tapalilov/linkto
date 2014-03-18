@@ -20,10 +20,9 @@ module Linkto
 ###############################
 # shortcuts / aliases
 
-  def google_search( q, opts={} )    link_to_google_search( q, opts )   end
-  def google_de_search( q, opts={} ) link_to_google_de_search( q, opts ) end
-  def google_search_images( q, opts={} )  link_to_google_search_images( q, opts )  end
+  alias_method :google_search, :link_to_google_search
+  alias_method :google_de_search, :link_to_google_de_search
+  alias_method :google_search_images, :link_to_google_search_images
 
-
-  end # module GoogleHelper 
+  end # module GoogleHelper
 end # module Linkto
